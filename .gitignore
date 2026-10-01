@@ -1,0 +1,40 @@
+# Environment files and credentials
+.env
+.env.*
+*.env
+*.key
+*.pem
+backend/.env
+backend/.env.*
+
+# Node dependencies
+node_modules/
+backend/node_modules/
+
+# Build artifacts
+dist/
+backend/dist/
+
+# Uploads / user-generated files
+uploads/
+backend/uploads/
+
+# Logs
+*.log
+backend/*.log
+
+# Flutter build artifacts
+frontend/.dart_tool/
+frontend/.build/
+frontend/.pub-cache/
+frontend/.pub/
+frontend/build/
+frontend/*.flutter-plugins
+frontend/*.flutter-plugin-dependencies
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
